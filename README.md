@@ -66,47 +66,56 @@ APIs: Weather, soil data, and satellite integration (if needed)
 1. Functional Requirements (What the system should do)
 These define the core features and capabilities of your web app.
 
-User Management
+-User Management
+
 Farmers and administrators can register, log in, and manage their accounts.
 
 Role-based access control (e.g., admin, farm workers, consultants).
 
-Farm Data Management
+-Farm Data Management
+
 Add, update, and delete farm details (e.g., location, size, type).
 
 Track different farm assets (e.g., crops, livestock, equipment).
 
-Crop & Livestock Monitoring
+-Crop & Livestock Monitoring
+
 Record and track crop growth stages, planting, harvesting, and yield.
 
 Track livestock health, breeding, and feeding schedules.
 
-Task & Labor Management
+-Task & Labor Management
+
 Assign tasks to workers (e.g., irrigation, fertilization, harvesting).
 
 Set deadlines and send notifications or reminders.
 
-Inventory & Resource Management
+-Inventory & Resource Management
+
 Track inputs (e.g., seeds, fertilizers, pesticides, animal feed).
 
 Monitor farm equipment usage and maintenance.
 
-Weather & Soil Monitoring (Optional API Integration)
+-Weather & Soil Monitoring (Optional API Integration)
+
 Provide real-time weather updates for better farm planning.
 
 Integrate soil health and moisture data if sensors are used.
 
-Financial & Expense Tracking
+-Financial & Expense Tracking
+
 Record sales, expenses, and profits for farm financial management.
 
 Generate reports for decision-making.
 
-Reports & Analytics
+-Reports & Analytics
+
 Provide data-driven insights on crop yields, costs, and productivity.
 
 Generate customizable reports in PDF/Excel format.
 
-Notifications & Alerts
+-Notifications & Alerts
+
 Send reminders for farm activities (e.g., irrigation schedules, vaccination dates).
 
 Alert farmers about extreme weather conditions.
@@ -114,34 +123,40 @@ Alert farmers about extreme weather conditions.
 2. Non-Functional Requirements (How the system should perform)
 These define the quality attributes of your web app.
 
-Performance
+-Performance
+
 The system should handle multiple concurrent users efficiently.
 
 Response time should be within acceptable limits (< 2 seconds for standard queries).
 
-Scalability
+-Scalability
+
 Should be able to support small farms initially and scale to larger farms.
 
 Database and server architecture should allow future expansion.
 
-Security
+-Security
+
 Data should be encrypted (SSL/TLS) to prevent unauthorized access.
 
 Implement role-based access control for different users.
 
 Secure authentication (e.g., password hashing, OAuth, or multi-factor authentication).
 
-Usability
+-Usability
+
 The interface should be simple and intuitive for farmers with minimal training.
 
 Should be mobile-friendly for use on smartphones and tablets.
 
-Availability & Reliability
+-Availability & Reliability
+
 The system should have 99.9% uptime for critical farm operations.
 
 Automatic backups to prevent data loss.
 
-Maintainability & Extensibility
+-Maintainability & Extensibility
+
 The codebase should follow clean architecture principles for easy maintenance.
 
 The system should allow for new feature additions without major changes.
