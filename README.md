@@ -36,14 +36,21 @@ Data Sources – Will you integrate external data (weather, market prices, etc.)
 
 ## WEB APP IMPLEMENTATION USING PYTHON:
 Pros of a Web App for Farm Management
+
 ✔ Accessibility – Farmers can access it from any device with a browser (PC, tablet, phone).
+
 ✔ Centralized Updates – No need for users to download updates; you can push changes instantly.
+
 ✔ Multi-User Support – Easy to manage multiple farm workers or stakeholders remotely.
+
 ✔ Cloud Integration – Store farm data securely and enable real-time collaboration.
+
 ✔ API Flexibility – Easily integrate weather forecasts, market prices, satellite data, etc.
 
 Potential Challenges & Solutions
+
 ❌ Internet Dependency – If farmers work in remote areas with poor connectivity, consider offline functionality.
+
 ❌ Mobile-Friendliness – Since many farmers use smartphones, design a responsive UI for ease of use.
 
 Recommended Tech Stack
